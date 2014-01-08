@@ -21,6 +21,7 @@
 		0EC33BB3187CC04C00A776AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC33B95187CC04C00A776AF /* UIKit.framework */; };
 		0EC33BBB187CC04C00A776AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EC33BB9187CC04C00A776AF /* InfoPlist.strings */; };
 		0EC33BBD187CC04C00A776AF /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC33BBC187CC04C00A776AF /* AttributorTests.m */; };
+		0EC33C0F187CE5DB00A776AF /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC33C0E187CE5DB00A776AF /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0EC33BB8187CC04C00A776AF /* AttributorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AttributorTests-Info.plist"; sourceTree = "<group>"; };
 		0EC33BBA187CC04C00A776AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EC33BBC187CC04C00A776AF /* AttributorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorTests.m; sourceTree = "<group>"; };
+		0EC33C0D187CE5DB00A776AF /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		0EC33C0E187CE5DB00A776AF /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				0EC33BA3187CC04C00A776AF /* Main.storyboard */,
+				0EC33C0D187CE5DB00A776AF /* TextStatsViewController.h */,
+				0EC33C0E187CE5DB00A776AF /* TextStatsViewController.m */,
 				0EC33BA6187CC04C00A776AF /* AttributorViewController.h */,
 				0EC33BA7187CC04C00A776AF /* AttributorViewController.m */,
 				0EC33BA9187CC04C00A776AF /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				0EC33BA2187CC04C00A776AF /* AttributorAppDelegate.m in Sources */,
 				0EC33BA8187CC04C00A776AF /* AttributorViewController.m in Sources */,
 				0EC33B9E187CC04C00A776AF /* main.m in Sources */,
+				0EC33C0F187CE5DB00A776AF /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				0EC33BC2187CC04C00A776AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EC33BC3187CC04C00A776AF /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				0EC33BC5187CC04C00A776AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
