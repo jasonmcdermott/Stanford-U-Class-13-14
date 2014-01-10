@@ -131,10 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				0E75FD03187D1E1D0045BD2D /* Main.storyboard */,
-				0E75FD26187D1EBF0045BD2D /* PlayingCardView.h */,
-				0E75FD27187D1EBF0045BD2D /* PlayingCardView.m */,
-				0E75FD06187D1E1D0045BD2D /* ViewController.h */,
-				0E75FD07187D1E1D0045BD2D /* ViewController.m */,
+				0EAAC27C187E43AC009437E9 /* Controllers */,
 				0E75FD29187D31640045BD2D /* Model */,
 				0E75FD09187D1E1D0045BD2D /* Images.xcassets */,
 				0E75FCF8187D1E1D0045BD2D /* Supporting Files */,
@@ -188,6 +185,17 @@
 				0E75FD33187D31640045BD2D /* PlayingCardDeck.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0EAAC27C187E43AC009437E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0E75FD26187D1EBF0045BD2D /* PlayingCardView.h */,
+				0E75FD27187D1EBF0045BD2D /* PlayingCardView.m */,
+				0E75FD06187D1E1D0045BD2D /* ViewController.h */,
+				0E75FD07187D1E1D0045BD2D /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,6 +512,7 @@
 				0E75FD22187D1E1D0045BD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E75FD23187D1E1D0045BD2D /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				0E75FD25187D1E1D0045BD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
