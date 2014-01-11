@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E85DD1A187FA80500D928C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85DD19187FA80500D928C1 /* Foundation.framework */; };
+		0E85DD1C187FA80500D928C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85DD1B187FA80500D928C1 /* CoreGraphics.framework */; };
+		0E85DD1E187FA80500D928C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85DD1D187FA80500D928C1 /* UIKit.framework */; };
+		0E85DD24187FA80500D928C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E85DD22187FA80500D928C1 /* InfoPlist.strings */; };
+		0E85DD26187FA80500D928C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E85DD25187FA80500D928C1 /* main.m */; };
+		0E85DD2A187FA80500D928C1 /* SENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E85DD29187FA80500D928C1 /* SENAppDelegate.m */; };
+		0E85DD2D187FA80500D928C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E85DD2B187FA80500D928C1 /* Main.storyboard */; };
+		0E85DD30187FA80500D928C1 /* SENViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E85DD2F187FA80500D928C1 /* SENViewController.m */; };
+		0E85DD32187FA80500D928C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E85DD31187FA80500D928C1 /* Images.xcassets */; };
+		0E85DD39187FA80500D928C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85DD38187FA80500D928C1 /* XCTest.framework */; };
+		0E85DD3A187FA80500D928C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85DD19187FA80500D928C1 /* Foundation.framework */; };
+		0E85DD3B187FA80500D928C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E85DD1D187FA80500D928C1 /* UIKit.framework */; };
+		0E85DD43187FA80500D928C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E85DD41187FA80500D928C1 /* InfoPlist.strings */; };
+		0E85DD45187FA80500D928C1 /* multiThreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E85DD44187FA80500D928C1 /* multiThreadingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E85DD3C187FA80500D928C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E85DD0E187FA80500D928C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E85DD15187FA80500D928C1;
+			remoteInfo = multiThreading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E85DD16187FA80500D928C1 /* multiThreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiThreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E85DD19187FA80500D928C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E85DD1B187FA80500D928C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E85DD1D187FA80500D928C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E85DD21187FA80500D928C1 /* multiThreading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiThreading-Info.plist"; sourceTree = "<group>"; };
+		0E85DD23187FA80500D928C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E85DD25187FA80500D928C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E85DD27187FA80500D928C1 /* multiThreading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "multiThreading-Prefix.pch"; sourceTree = "<group>"; };
+		0E85DD28187FA80500D928C1 /* SENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SENAppDelegate.h; sourceTree = "<group>"; };
+		0E85DD29187FA80500D928C1 /* SENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SENAppDelegate.m; sourceTree = "<group>"; };
+		0E85DD2C187FA80500D928C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E85DD2E187FA80500D928C1 /* SENViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SENViewController.h; sourceTree = "<group>"; };
+		0E85DD2F187FA80500D928C1 /* SENViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SENViewController.m; sourceTree = "<group>"; };
+		0E85DD31187FA80500D928C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E85DD37187FA80500D928C1 /* multiThreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiThreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E85DD38187FA80500D928C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0E85DD40187FA80500D928C1 /* multiThreadingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiThreadingTests-Info.plist"; sourceTree = "<group>"; };
+		0E85DD42187FA80500D928C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E85DD44187FA80500D928C1 /* multiThreadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiThreadingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E85DD13187FA80500D928C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E85DD1C187FA80500D928C1 /* CoreGraphics.framework in Frameworks */,
+				0E85DD1E187FA80500D928C1 /* UIKit.framework in Frameworks */,
+				0E85DD1A187FA80500D928C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E85DD34187FA80500D928C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E85DD39187FA80500D928C1 /* XCTest.framework in Frameworks */,
+				0E85DD3B187FA80500D928C1 /* UIKit.framework in Frameworks */,
+				0E85DD3A187FA80500D928C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E85DD0D187FA80500D928C1 = {
+			isa = PBXGroup;
+			children = (
+				0E85DD1F187FA80500D928C1 /* multiThreading */,
+				0E85DD3E187FA80500D928C1 /* multiThreadingTests */,
+				0E85DD18187FA80500D928C1 /* Frameworks */,
+				0E85DD17187FA80500D928C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E85DD17187FA80500D928C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E85DD16187FA80500D928C1 /* multiThreading.app */,
+				0E85DD37187FA80500D928C1 /* multiThreadingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E85DD18187FA80500D928C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E85DD19187FA80500D928C1 /* Foundation.framework */,
+				0E85DD1B187FA80500D928C1 /* CoreGraphics.framework */,
+				0E85DD1D187FA80500D928C1 /* UIKit.framework */,
+				0E85DD38187FA80500D928C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E85DD1F187FA80500D928C1 /* multiThreading */ = {
+			isa = PBXGroup;
+			children = (
+				0E85DD2B187FA80500D928C1 /* Main.storyboard */,
+				0E85DD2E187FA80500D928C1 /* SENViewController.h */,
+				0E85DD2F187FA80500D928C1 /* SENViewController.m */,
+				0E85DD31187FA80500D928C1 /* Images.xcassets */,
+				0E85DD20187FA80500D928C1 /* Supporting Files */,
+			);
+			path = multiThreading;
+			sourceTree = "<group>";
+		};
+		0E85DD20187FA80500D928C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E85DD28187FA80500D928C1 /* SENAppDelegate.h */,
+				0E85DD29187FA80500D928C1 /* SENAppDelegate.m */,
+				0E85DD21187FA80500D928C1 /* multiThreading-Info.plist */,
+				0E85DD22187FA80500D928C1 /* InfoPlist.strings */,
+				0E85DD25187FA80500D928C1 /* main.m */,
+				0E85DD27187FA80500D928C1 /* multiThreading-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E85DD3E187FA80500D928C1 /* multiThreadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E85DD44187FA80500D928C1 /* multiThreadingTests.m */,
+				0E85DD3F187FA80500D928C1 /* Supporting Files */,
+			);
+			path = multiThreadingTests;
+			sourceTree = "<group>";
+		};
+		0E85DD3F187FA80500D928C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E85DD40187FA80500D928C1 /* multiThreadingTests-Info.plist */,
+				0E85DD41187FA80500D928C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E85DD15187FA80500D928C1 /* multiThreading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E85DD48187FA80500D928C1 /* Build configuration list for PBXNativeTarget "multiThreading" */;
+			buildPhases = (
+				0E85DD12187FA80500D928C1 /* Sources */,
+				0E85DD13187FA80500D928C1 /* Frameworks */,
+				0E85DD14187FA80500D928C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multiThreading;
+			productName = multiThreading;
+			productReference = 0E85DD16187FA80500D928C1 /* multiThreading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E85DD36187FA80500D928C1 /* multiThreadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E85DD4B187FA80500D928C1 /* Build configuration list for PBXNativeTarget "multiThreadingTests" */;
+			buildPhases = (
+				0E85DD33187FA80500D928C1 /* Sources */,
+				0E85DD34187FA80500D928C1 /* Frameworks */,
+				0E85DD35187FA80500D928C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E85DD3D187FA80500D928C1 /* PBXTargetDependency */,
+			);
+			name = multiThreadingTests;
+			productName = multiThreadingTests;
+			productReference = 0E85DD37187FA80500D928C1 /* multiThreadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E85DD0E187FA80500D928C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SEN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sensorium Health";
+				TargetAttributes = {
+					0E85DD36187FA80500D928C1 = {
+						TestTargetID = 0E85DD15187FA80500D928C1;
+					};
+				};
+			};
+			buildConfigurationList = 0E85DD11187FA80500D928C1 /* Build configuration list for PBXProject "multiThreading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E85DD0D187FA80500D928C1;
+			productRefGroup = 0E85DD17187FA80500D928C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E85DD15187FA80500D928C1 /* multiThreading */,
+				0E85DD36187FA80500D928C1 /* multiThreadingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E85DD14187FA80500D928C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E85DD32187FA80500D928C1 /* Images.xcassets in Resources */,
+				0E85DD24187FA80500D928C1 /* InfoPlist.strings in Resources */,
+				0E85DD2D187FA80500D928C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E85DD35187FA80500D928C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E85DD43187FA80500D928C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E85DD12187FA80500D928C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E85DD30187FA80500D928C1 /* SENViewController.m in Sources */,
+				0E85DD26187FA80500D928C1 /* main.m in Sources */,
+				0E85DD2A187FA80500D928C1 /* SENAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E85DD33187FA80500D928C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E85DD45187FA80500D928C1 /* multiThreadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E85DD3D187FA80500D928C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E85DD15187FA80500D928C1 /* multiThreading */;
+			targetProxy = 0E85DD3C187FA80500D928C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E85DD22187FA80500D928C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E85DD23187FA80500D928C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E85DD2B187FA80500D928C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E85DD2C187FA80500D928C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E85DD41187FA80500D928C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E85DD42187FA80500D928C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E85DD46187FA80500D928C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E85DD47187FA80500D928C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E85DD49187FA80500D928C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiThreading/multiThreading-Prefix.pch";
+				INFOPLIST_FILE = "multiThreading/multiThreading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E85DD4A187FA80500D928C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiThreading/multiThreading-Prefix.pch";
+				INFOPLIST_FILE = "multiThreading/multiThreading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0E85DD4C187FA80500D928C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/multiThreading.app/multiThreading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiThreading/multiThreading-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "multiThreadingTests/multiThreadingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0E85DD4D187FA80500D928C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/multiThreading.app/multiThreading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "multiThreading/multiThreading-Prefix.pch";
+				INFOPLIST_FILE = "multiThreadingTests/multiThreadingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E85DD11187FA80500D928C1 /* Build configuration list for PBXProject "multiThreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E85DD46187FA80500D928C1 /* Debug */,
+				0E85DD47187FA80500D928C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E85DD48187FA80500D928C1 /* Build configuration list for PBXNativeTarget "multiThreading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E85DD49187FA80500D928C1 /* Debug */,
+				0E85DD4A187FA80500D928C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E85DD4B187FA80500D928C1 /* Build configuration list for PBXNativeTarget "multiThreadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E85DD4C187FA80500D928C1 /* Debug */,
+				0E85DD4D187FA80500D928C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E85DD0E187FA80500D928C1 /* Project object */;
+}
